@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#header-img {
+    background-color: blue;
+}
+
+#nav-bar {
+    width: 50%;
+    font-size: xx-large;
+    margin: 0 20px 0 auto;
+    padding: 15px 30px 0 20px;
+    font-weight: 700;
+    background-color: red;
+}
