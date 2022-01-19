@@ -42,7 +42,13 @@ iframe {
 }
 
 form {
-    display: block;
-
     background-color: hotpink;
+}
+
+form {
+    margin: 0px 300px 0px 300px;
+}
+
+#email {
+    margin-left: 250px;
 }
