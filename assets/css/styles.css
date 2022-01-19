@@ -53,9 +53,11 @@ form {
     margin-left: 250px;
 }
 
-.container_Tips {
+h2, h3, p {
     display: flex;
     flex-direction: column;
+    list-style-position: inside;
     text-align: center;
+    margin: 10px 300px;
     background-color: brown;
 }
