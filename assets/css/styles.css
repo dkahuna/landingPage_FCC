@@ -52,3 +52,10 @@ form {
 #email {
     margin-left: 250px;
 }
+
+.container_Tips {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: brown;
+}
