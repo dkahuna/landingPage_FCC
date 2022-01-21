@@ -6,7 +6,6 @@
 
 header {
     display: flex;
-    background-color: grey;
 }
 
 #nav-bar {
@@ -15,7 +14,6 @@ header {
     float: right;
 
     text-align: right;
-    background-color: red;
 }
 
 nav a {
@@ -42,10 +40,6 @@ iframe {
 }
 
 form {
-    background-color: hotpink;
-}
-
-form {
     margin: 0px 300px 0px 300px;
 }
 
@@ -53,11 +47,26 @@ form {
     margin-left: 250px;
 }
 
-h2, h3, p {
+.container_Tips {
     display: flex;
     flex-direction: column;
     list-style-position: inside;
     text-align: center;
-    margin: 10px 300px;
-    background-color: brown;
+    margin: 50px 300px;
+}
+
+.container_ingreds{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid olive 20px;
+}
+
+.recipe {
+    border: solid yellow 30px;
+}
+
+footer {
+    margin-top: 20px;
+
+    text-align: center;
 }
