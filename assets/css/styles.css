@@ -10,7 +10,7 @@ header {
 
 #nav-bar {
     width: 50%;
-    margin: 10px 20px 0 auto;
+    margin: 10px 10px 0 auto;
     float: right;
 
     text-align: right;
@@ -58,7 +58,6 @@ form {
 .container_ingreds{
     display: flex;
     justify-content: space-evenly;
-    border: solid olive 20px;
 }
 
 .recipe {
