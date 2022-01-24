@@ -6,14 +6,15 @@
 
 header {
     display: flex;
+    background-color: honeydew;
 }
 
 #nav-bar {
-    width: 50%;
     margin: 10px 10px 0 auto;
     float: right;
-
+    position: fixed;
     text-align: right;
+    width: 100%;    
 }
 
 nav a {
@@ -36,7 +37,6 @@ h1, h4 {
 iframe {
     display: block;
     margin: auto;
-    border: dotted red 30px;
 }
 
 form {
@@ -60,12 +60,25 @@ form {
     justify-content: space-evenly;
 }
 
-.recipe {
-    border: solid yellow 30px;
+#meals {
+    text-align: center;
+    padding: 25px;
 }
 
 footer {
     margin-top: 20px;
 
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    header, #nav-bar {
+        float: none;
+        width: 100%;
+    }
+    
+    h2, h3, p {
+        display: flex;
+        color: red;
+    }
 }
