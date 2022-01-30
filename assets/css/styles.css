@@ -41,10 +41,12 @@ iframe {
 
 form {
     margin: 0px 300px 0px 300px;
+    border: 3px solid black;
 }
 
-#email {
-    margin-left: 250px;
+#email, #submit {
+   margin: inherit;
+   padding-right: 10px;
 }
 
 .container_Tips {
@@ -71,9 +73,15 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1325px) {
     header, #nav-bar {
         float: none;
         width: 100%;
+    }
+
+    input {
+        border: 5px solid black;
+        margin: 5px;
+        text-align: center;
     }
 }
