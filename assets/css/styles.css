@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: goldenrod;
+}
+
 header {
     display: flex;
     background-color: honeydew;
@@ -42,11 +46,17 @@ iframe {
 form {
     margin: 0px 300px 0px 300px;
     border: 3px solid black;
+
+    display: flex;
+    flex-direction: column;
 }
 
-#email, #submit {
-   margin: inherit;
-   padding-right: 10px;
+#email {
+    margin: 5px 80px;
+}
+
+#submit {
+    margin: 0 200px;
 }
 
 .container_Tips {
